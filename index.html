@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="image/xianguo.icon.png" />
+    <title>Market Xianguo</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+<!-- Sección de encabezado comienza -->
+<header class="header">
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Market Xianguo </a>
+    <nav class="navbar">
+        <a href="#carac">características</a>
+        <a href="#categorias">categorías</a>
+        <a href="#reseña">reseña</a>
+        <a href="productos.html">productos</a>
+        <a href="alta.php">inventario</a>
+        <a href="productoss.html">product admin</a>
+    </nav>
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"style="display: none;"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="buscar aquí...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <form action="" class="login-form" id="loginForm">
+        <h3>Iniciar Sesión</h3>
+        <input type="email" placeholder="Tu correo electrónico" class="box" id="email" required>
+        <input type="password" placeholder="Tu contraseña" class="box" id="password" required>
+        <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+        <p>¿No tienes una cuenta? <a href="registro.html">Crea una ahora</a></p>
+        <input type="submit" value="Iniciar Sesión" class="btn">
+    </form>
+    <script src="js/login.js"></script>
+</header>
+<!-- Sección de encabezado termina -->
+<!-- Sección de inicio comienza -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>productos frescos y <span>orgánicos</span> para ti</h3>
+        <a href="productos.html" class="btn">comprar ahora</a>
+    </div>
+</section>
+<!-- Sección de inicio termina -->
+<!-- Sección de características comienza -->
+
+<section class="features" id="features">
+    <h1 class="heading"> nuestras <span>características</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/feature-img-1.png" alt="">
+            <h3>fresco y orgánico</h3>
+        </div>
+        <div class="box">
+            <img src="image/feature-img-2.png" alt="">
+            <h3>entrega gratuita</h3>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-3.png" alt="">
+            <h3>pagos fáciles</h3>
+        </div>
+    </div>
+</section>
+<!-- Sección de características termina -->
+<!-- Sección de productos comienza -->
+
+<section class="products" id="products">
+    <h1 class="heading"> nuestros <span>productos</span> </h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image/product-1.png" alt="">
+                <h3>naranjas frescas</h3>
+                <div class="price"></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="productos.html" class="btn">elije tu producto</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/product-2.png" alt="">
+                <h3>cebolla fresca</h3>
+                <div class="price"></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="productos.html" class="btn">elije tu producto</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/product-3.png" alt="">
+                <h3>carne fresca</h3>
+                <div class="price"></div>
+                <div class "stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="productos.html" class="btn">elije tu producto</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/product-4.png" alt="">
+                <h3>repollo fresco</h3>
+                <div class="price"></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="productos.html" class="btn">elije tu producto</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image/product-5.png" alt="">
+                <h3>papas frescas</h3>
+                <div class="price"></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="productos.html" class="btn">elije tu producto</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/product-6.png" alt="">
+                <h3>aguacate fresco</h3>
+                <div class="price"></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="productos.html" class="btn">elije tu producto</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/product-7.png" alt="">
+                <h3>zanahoria fresca</h3>
+                <div class="price"></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="productos.html" class="btn">elije tu producto</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/product-8.png" alt="">
+                <h3>limón verde</h3>
+                <div class="price"></div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="productos.html" class="btn">elije tu producto</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección de productos termina -->
+<!-- Sección de categorías comienza -->
+
+<section class="categories" id="categories">
+    <h1 class="heading"> <span>categorías</span> de productos </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/cat-1.png" alt="">
+            <h3>vegetales</h3>
+            <p>hasta un 45% de descuento</p>
+            <a href="#" class="btn">comprar ahora</a>
+        </div>
+        <div class="box">
+            <img src="image/cat-2.png" alt="">
+            <h3>frutas frescas</h3>
+            <p>hasta un 45% de descuento</p>
+            <a href="productos.html" class="btn">comprar ahora</a>
+        </div>
+        <div class="box">
+            <img src="image/cat-3.png" alt="">
+            <h3>productos lácteos</h3>
+            <p>hasta un 45% de descuento</p>
+            <a href="productos.html" class="btn">comprar ahora</a>
+        </div>
+        <div class="box">
+            <img src="image/cat-4.png" alt="">
+            <h3>carne fresca</h3>
+            <p>hasta un 45% de descuento</p>
+            <a href="productos.html" class="btn">comprar ahora</a>
+        </div>
+    </div>
+</section>
+<!-- Sección de categorías termina -->
+<!-- Sección de reseñas comienza -->
+
+<section class="review" id="review">
+    <h1 class="heading"> <span>reseñas</span> de clientes </h1>
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pety.jpeg" alt="">
+                <p>Me cagaron es una paguina media media, los 3 programadores que la hicieron que saquen mata.</p>
+                <h3>Lautaro pavesse</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/seba.jpeg" alt="">
+                <p>Ami no me gusto pero a mi novia si asiq les doy 4 estrellas.</p>
+                <h3>Sebastian Sacur</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/luca.jpeg" alt="">
+                <p>EY yo estuve haciendo esta paguina metan megusta.</p>
+                <h3>Luca Abalo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/sando2.jpeg" alt="">
+                <p>Es una tienda muy linda  me gusto mucho, quiero volver :v.</p>
+                <h3>Martin Sandoval</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+</div>
+</div>
+</section>
+<!-- reseñas de clientes sección termina -->
+<!-- sección de pie de página comienza  -->
+<section class="footer">
+
+<div class="box-container">
+
+    <div class="box">
+        <h3>información de contacto</h3>
+        <a href="#" class="links"> <i class="fas fa-phone"></i>+54 291 5225535</a>
+        <a href="#" class="links"> <i class="fas fa-envelope"></i> abaloluca7@gmail.com </a>
+        <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> bahia blanca</a>
+    </div>
+
+    <div class="box">
+        <h3>enlaces rápidos</h3>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> inicio </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> características </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> productos </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categorías </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> reseña </a>
+    </div>
+
+</div>
+</section>
+
+<!-- sección de pie de página termina -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
